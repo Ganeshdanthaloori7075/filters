@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>filters</h1>
+        {{filter|lower}}<br>
+        {{filter|upper}}<br>
+        {{filter|capfirst}}<br>
+        {{filter|title}}<br>
+        {{filter|length}}<br>
+        {{filter|truncatechars:'3'}}<br>
+        {{filter|truncatewords:'5'}}<br>
+        {{filter|slice:'10'}}<br>
+        {{t|date:'F Y P'}}<br>
+        <h2>i had {{c}} apple{{c|pluralize}}</h2>
+        <h2>i had {{c}} mango{{c|pluralize:'es'}}</h2>
+        <h2>this cat{{c|pluralize}} {{c|pluralize:'is,are'}} mine</h2>
+
+
+    </center>
+    
+</body>
+</html>
